@@ -1,6 +1,4 @@
-# PolygonID Flutter SDK Example App
-
-Demonstrates how to use the polygonid_flutter_sdk plugin.
+# ssi_polygon wallet app
 
 **Contents**
 1. [Setup](#setup)
@@ -14,8 +12,11 @@ Demonstrates how to use the polygonid_flutter_sdk plugin.
 
 ### Install
 1. Clone this repository.
-2. Run `flutter pub get` from example directory.
-3. Run `build_runner` to generate `.g.dart` files:
+```bash
+git clone https://github.com/LobsterRavioli/ssi_polygon.git
+```
+3. Run `flutter pub get` from example directory.
+4. Run `build_runner` to generate `.g.dart` files:
 ```bash
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
@@ -293,4 +294,3 @@ Future<void> updateClaim({
   );
 }
 ```
-# ssi_polygon
