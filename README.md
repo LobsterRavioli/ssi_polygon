@@ -13,7 +13,7 @@ Demonstrates how to use the polygonid_flutter_sdk plugin.
 ## Setup
 
 ### Install
-1. Clone the `polygonid-flutter-sdk` repository.
+1. Clone this repository.
 2. Run `flutter pub get` from example directory.
 3. Run `build_runner` to generate `.g.dart` files:
 ```bash
